@@ -5,7 +5,7 @@ from util1 import get_limits
 
 
 yellow = [0, 0, 255]  # yellow in BGR colorspace
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 while True:
     ret, frame = cap.read()
 
